@@ -1,0 +1,59 @@
+@charset "utf=8";
+
+body {
+    color: #333;
+    margin:  0;
+}
+
+header h1 {
+
+    padding: 20px 25px;
+    color: #fff;
+    background: #ea4875;
+    font-weight: bold;
+}
+
+/* アイコン部分 */
+button {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 40px;
+}
+
+/* メニュー */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 17px 25px;
+    color: #fff;
+    background: #b94b6a;
+    border-bottom: 1px solid #a24861;
+}
+
+li:last-child a {
+    border-bottom: 40px 20px 20px;
+}
+
+main {
+    display: block;
+    padding: 40px 20px 20px;
+    color: #333;
+}
+
+p {
+  margin-bottom: 50px;
+  line-height: 2em;
+}

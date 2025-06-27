@@ -1,0 +1,47 @@
+@charset "utf=8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #4c8c81;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+h1{
+    padding: 45px;
+    color: #8ab7ab;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    width: 640px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0 0 20px;
+}
+
+ul {
+    width: 260px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a:hover {
+    transition: opacity .3s;
+    opacity: .5;
+}
